@@ -6,3 +6,6 @@ wp-content/upgrade/
 .htaccess
 node_modules/
 vendor/
+# Ignore log files (CartFlows and WooCommerce logs)
+wp-content/uploads/cartflows-logs/*.log
+wp-content/uploads/wc-logs/*.log
